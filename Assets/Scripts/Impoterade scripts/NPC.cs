@@ -5,6 +5,8 @@ public class NPC : MonoBehaviour
 {
     public int requiredCoins = 5;
     public TMP_Text dialogueText;
+    public string Demand;
+    public string Done;
 
     bool playerNearby = false;
 
@@ -14,11 +16,11 @@ public class NPC : MonoBehaviour
         {
             if (Globals.coins < requiredCoins)
             {
-                dialogueText.text = "More coin";
+                dialogueText.text = Demand;
             }
             else
             {
-                dialogueText.text = "good :)";
+                dialogueText.text = Done;
             }
         }
     }
