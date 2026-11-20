@@ -939,6 +939,7 @@ GameObject:
   - component: {fileID: 1476184082}
   - component: {fileID: 1476184081}
   - component: {fileID: 1476184080}
+  - component: {fileID: 1476184085}
   m_Layer: 0
   m_Name: Player_Grav
   m_TagString: Player
@@ -1099,6 +1100,18 @@ Transform:
   - {fileID: 1877785552}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1476184085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476184079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112bb69880c66da4c93e0b46054e9361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Exit
 --- !u!1 &1543792678
 GameObject:
   m_ObjectHideFlags: 0
